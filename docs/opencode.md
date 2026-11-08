@@ -2,6 +2,10 @@
 
 # OpenCode V1 integration (experimental)
 
+This page documents the V1 adapter (`install.py`). The Windows-native OpenCode
+V2 installer is documented in
+[`adapters/opencode/WINDOWS.md`](../adapters/opencode/WINDOWS.md).
+
 This adapter targets OpenCode CLI **1.18.29**, with V1 `task` and `permission` interfaces.
 It does not target V2 `subagent` or `permissions` interfaces.
 Installation checks do not establish workflow or isolation support.
